@@ -1,17 +1,16 @@
-Copyright 2010, Ryan Edgell (http://www.ryanmarc.com/)
+Copyright 2011, Ryan Edgell (http://www.ryanmarc.com/)
 
 TO USE:
-First include jQuery:
-<script type='text/javascript' src='<path_to_js>/jquery-1.4.2.min.js'></script>
+First include jQuery
 
 Second, include the doubleRainbow plugin:
-<script type='text/javascript' src='<path_to_js>/doubleRainbow.jQuery.js'></script>
+<script type='text/javascript' src='<path_to_js>/jquery.doublerainbow.js'></script>
 
-Third, copy the file "rainbow.gif" from the images folder to your images folder. If you put it somewhere else be sure to update the path to the file in the "doubleRainbow.jQuery.js" script.
+Third, copy the file "rainbow.gif" from the images folder to your images folder and update the path to the image in the js file if needed.
 
 Fourth, in the <head> of your html include the js from the example below.
 
-Finally, based on the selector below, add the rel="rainbow" attribute to any images you want to have the double rainbow.
+Finally, add rel="rainbow" attribute to any images you want to have the double rainbow.
 
 EXAMPLE:
 <script type='text/javascript'>
